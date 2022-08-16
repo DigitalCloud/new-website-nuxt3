@@ -28,7 +28,7 @@ export default {
   mounted() {
     // localStorage.setItem("langLocale", 'ar');
     let locale = localStorage.getItem("langLocale");
-    console.log(locale)
+    
     if(locale === null) {
       this.$i18n.locale = 'en';
       locale = 'en';
