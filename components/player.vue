@@ -2,11 +2,15 @@
   <div class="container-content sm:w-full sm:max-w-full">
     <div class="w-11/12 2xl:w-full mx-auto">
       <div class="rounded-xl overflow-hidden sm:rounded-none">
-        <video id="player" ref="player" playsinline controls :poster="poster" crossorigin="">
-          <source
-              :src="url"
-              type="video/mp4"
-          />
+        <video
+          id="player"
+          ref="player"
+          playsinline
+          controls
+          :poster="poster"
+          crossorigin=""
+        >
+          <source :src="url" type="video/mp4" />
         </video>
       </div>
     </div>
@@ -14,29 +18,29 @@
 </template>
 
 <script>
-import {onMounted} from "vue";
+import { onMounted } from "vue";
 
 export default {
   props: {
     url: String,
-    poster: String
+    poster: String,
   },
   setup() {
     onMounted(async () => {
       const Plyr = await import("plyr");
       const newPlayer = new Plyr.default("#player");
-    })
-  }
-}
+    });
+  },
+};
 </script>
 
 <style lang="scss">
 :root {
-  --plyr-color-main: #0D3535;
+  --plyr-color-main: #0d3535;
 }
 
 .plyr__control--overlaid {
-  background-color: #0D3535;
+  background-color: #0d3535;
 }
 
 .plyr__control svg {
