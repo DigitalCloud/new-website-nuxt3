@@ -1,0 +1,14 @@
+{
+  "app": {
+    "back": "Back",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram"
+  },
+  "site": {
+    "lang": "عربي",
+    "home": "Home",
+    "menu": "Menu",
+    "close": "Close"
+  }
+}
