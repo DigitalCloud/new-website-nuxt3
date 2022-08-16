@@ -3,104 +3,109 @@
 @import "tailwindcss/utilities.css";
 
 @font-face {
-  font-family: 'ProspectusProLarge';
-  src: url('../fonts/Prospectus/ProspectusProLDEMO-Regular.woff2') format('woff2'),
-  url('../fonts/Prospectus/ProspectusProLDEMO-Regular.woff') format('woff');
+  font-family: "ProspectusProLarge";
+  src: url("../fonts/Prospectus/ProspectusProLDEMO-Regular.woff2")
+      format("woff2"),
+    url("../fonts/Prospectus/ProspectusProLDEMO-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProspectusProLarge';
-  src: url('../fonts/Prospectus/ProspectusProLDEMO-SemiBold.woff2') format('woff2'),
-  url('../fonts/Prospectus/ProspectusProLDEMO-SemiBold.woff') format('woff');
+  font-family: "ProspectusProLarge";
+  src: url("../fonts/Prospectus/ProspectusProLDEMO-SemiBold.woff2")
+      format("woff2"),
+    url("../fonts/Prospectus/ProspectusProLDEMO-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProspectusProLarge';
-  src: url('../fonts/Prospectus/ProspectusProLDEMO-Bold.woff2') format('woff2'),
-  url('../fonts/Prospectus/ProspectusProLDEMO-Bold.woff') format('woff');
+  font-family: "ProspectusProLarge";
+  src: url("../fonts/Prospectus/ProspectusProLDEMO-Bold.woff2") format("woff2"),
+    url("../fonts/Prospectus/ProspectusProLDEMO-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'ProspectusProLarge';
-  src: url('../fonts/Prospectus/ProspectusProLDEMO-Black.woff2') format('woff2'),
-  url('../fonts/Prospectus/ProspectusProLDEMO-Black.woff') format('woff');
+  font-family: "ProspectusProLarge";
+  src: url("../fonts/Prospectus/ProspectusProLDEMO-Black.woff2") format("woff2"),
+    url("../fonts/Prospectus/ProspectusProLDEMO-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
-
 @font-face {
-  font-family: 'GeneralSans';
-  src: url('../fonts/GeneralSans/GeneralSans-Regular.woff2') format('woff2'),
-  url('../fonts/GeneralSans/GeneralSans-Regular.woff') format('woff');
+  font-family: "GeneralSans";
+  src: url("../fonts/GeneralSans/GeneralSans-Regular.woff2") format("woff2"),
+    url("../fonts/GeneralSans/GeneralSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'GeneralSans';
-  src: url('../fonts/GeneralSans/GeneralSans-Medium.woff2') format('woff2'),
-  url('../fonts/GeneralSans/GeneralSans-Medium.woff') format('woff');
+  font-family: "GeneralSans";
+  src: url("../fonts/GeneralSans/GeneralSans-Medium.woff2") format("woff2"),
+    url("../fonts/GeneralSans/GeneralSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'GeneralSans';
-  src: url('../fonts/GeneralSans/GeneralSans-Semibold.woff2') format('woff2'),
-  url('../fonts/GeneralSans/GeneralSans-Semibold.woff') format('woff');
+  font-family: "GeneralSans";
+  src: url("../fonts/GeneralSans/GeneralSans-Semibold.woff2") format("woff2"),
+    url("../fonts/GeneralSans/GeneralSans-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'GeneralSans';
-  src: url('../fonts/GeneralSans/GeneralSans-Bold.woff2') format('woff2'),
-  url('../fonts/GeneralSans/GeneralSans-Bold.woff') format('woff');
+  font-family: "GeneralSans";
+  src: url("../fonts/GeneralSans/GeneralSans-Bold.woff2") format("woff2"),
+    url("../fonts/GeneralSans/GeneralSans-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  font-family: 'GeneralSans', sans-serif;
+  font-family: "GeneralSans", sans-serif;
 }
 
 .other-font {
-  font-family: 'ProspectusProLarge', sans-serif;
+  font-family: "ProspectusProLarge", sans-serif;
 }
 
 .general-font {
-  font-family: 'GeneralSans', sans-serif;
+  font-family: "GeneralSans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'ProspectusProLarge', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ProspectusProLarge", sans-serif;
 }
 
 .p-font {
-  font-family: 'ProspectusProLarge', sans-serif;
+  font-family: "ProspectusProLarge", sans-serif;
 }
 
 .container-content {
   width: 76%;
   margin-right: auto;
   margin-left: auto;
-  @apply 2xl:w-[80%]
-
+  @apply 2xl:w-[80%];
 }
 
 .flow-container {
@@ -122,7 +127,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fixed-header {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .main-content {
@@ -132,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 .circle-link {
   @apply relative;
   &:before {
-    content: '';
+    content: "";
     z-index: 1;
     @apply h-12 w-12 rounded-full absolute ltr:left-0 rtl:right-0 lg:h-11 lg:w-11 md:w-full;
     transition: width 0.25s ease;
@@ -145,7 +154,8 @@ h1, h2, h3, h4, h5, h6 {
   span {
     z-index: 2;
     overflow: hidden;
-    background: linear-gradient(to right, #1E2532, #1E2532 50%, #1E2532 50%) 100%;
+    background: linear-gradient(to right, #1e2532, #1e2532 50%, #1e2532 50%)
+      100%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -187,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.01em;
-    color: #1E2532;
+    color: #1e2532;
     @media (max-width: 768px) {
       font-size: 40px;
     }
@@ -205,11 +215,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .black-gradiant {
-  background: linear-gradient(140.88deg, #303332 3.99%, #525A57 96.14%);
+  background: linear-gradient(140.88deg, #303332 3.99%, #525a57 96.14%);
 }
 
 .orange-gradiant {
-  background: linear-gradient(140.88deg, #FE5445 3.99%, #FFA198 96.14%);
+  background: linear-gradient(140.88deg, #fe5445 3.99%, #ffa198 96.14%);
 }
 
 .our-team {
@@ -223,9 +233,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
-      background: #FFF0EB;
+      background: #fff0eb;
       top: 10px;
       bottom: 0;
       left: 8px;
@@ -234,16 +244,14 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 1;
       border-radius: 8px;
     }
-
   }
-
 
   .team-box {
     &:hover {
       .img-handler {
         &:after {
           transition: all 0.25s ease;
-          background: #FF6739;
+          background: #ff6739;
         }
       }
     }
@@ -267,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
       transition: all ease-in-out 0.3s;
 
       &:hover {
-        background: #FF6739;
+        background: #ff6739;
       }
     }
   }
@@ -285,8 +293,8 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 
     &:after {
-      content: '';
-      background: #FF6739;
+      content: "";
+      background: #ff6739;
       position: absolute;
       top: 0;
       bottom: 0;
@@ -305,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ready-section {
-  background: linear-gradient(180deg, #F4F4F4 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #f4f4f4 0%, #ffffff 100%);
 }
 
 .workflow-shape {
@@ -329,14 +337,14 @@ h1, h2, h3, h4, h5, h6 {
   .swiper-pagination-bullet {
     width: 24px;
     height: 5px;
-    background: #EFEFEF !important;
+    background: #efefef !important;
     border-radius: 6px;
     opacity: 1;
     margin: 0 8px !important;
   }
 
   .swiper-pagination-bullet-active {
-    background: #FF6739 !important;
+    background: #ff6739 !important;
   }
 }
 
@@ -356,7 +364,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-section {
-  background: linear-gradient(114.83deg, #382827 18.47%, #26202B 46.78%, #31212E 69.61%);
+  background: linear-gradient(
+    114.83deg,
+    #382827 18.47%,
+    #26202b 46.78%,
+    #31212e 69.61%
+  );
   animation: gradient 15s ease infinite;
   background-size: 200% 200%;
 }
@@ -393,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &:before {
-    content: '';
+    content: "";
     display: block;
     top: 11px;
     width: 3rem;
@@ -403,10 +416,8 @@ h1, h2, h3, h4, h5, h6 {
     @media (max-width: 768px) {
       width: 2.5rem;
     }
-
   }
 }
-
 
 .dm-list {
   li {
@@ -422,7 +433,6 @@ h1, h2, h3, h4, h5, h6 {
 
     p {
       @apply font-semibold;
-
     }
   }
 
@@ -444,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
 .work-title-swiper {
   .changeWorkSlideBtn.active {
     background: rgba(255, 103, 57, 0.1);
-    color: #FF6739;
+    color: #ff6739;
   }
 }
 
@@ -465,18 +475,17 @@ h1, h2, h3, h4, h5, h6 {
 
       & > ul {
         @media (max-width: 1280px) {
-          @apply mx-0 flex-wrap
+          @apply mx-0 flex-wrap;
         }
         @media (max-width: 1280px) {
-          li{
-            @apply px-0
+          li {
+            @apply px-0;
           }
           li:not(:last-child) {
             margin-bottom: 0.5rem;
           }
         }
       }
-
     }
   }
 
@@ -510,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &.active {
-    background: #FFEDE7;
+    background: #ffede7;
 
     img {
       filter: grayscale(0%);

@@ -4,42 +4,45 @@
     <div class="container-content flex items-center justify-between py-[32px]">
       <h1>
         <a href="./index.html">
-          <nuxt-img src="images/white-logo.svg" alt="img"/>
+          <nuxt-img src="images/white-logo.svg" alt="img" />
         </a>
       </h1>
-<!--      <div>-->
-<!--        <button @click.prevent="changeLang">-->
-<!--          عربي-->
-<!--        </button>-->
-<!--      </div>-->
-      <main-link text-color="white" link="/" text="Become a Client" before-color="orange"/>
+      <!--      <div>-->
+      <!--        <button @click.prevent="changeLang">-->
+      <!--          عربي-->
+      <!--        </button>-->
+      <!--      </div>-->
+      <main-link
+        text-color="white"
+        link="/"
+        text="Become a Client"
+        before-color="orange"
+      />
     </div>
   </header>
 </template>
 
 <script>
 import MainLink from "./UI/MainLink";
-import {useHead} from "nuxt/app";
+import { useHead } from "nuxt/app";
 
 export default {
   name: "Header",
-  components: {MainLink},
+  components: { MainLink },
   methods: {
     changeLang() {
       // this.$i18n.locale = 'ar';
-      localStorage.setItem("langLocale", 'ar');
+      localStorage.setItem("langLocale", "ar");
       this.$i18n.locale = localStorage.getItem("langLocale");
-          useHead({
-            htmlAttrs: {
-              lang: this.$i18n.locale,
-              dir: this.$i18n.locale === 'en' ? 'ltr' : 'rtl',
-            },
-          })
-    }
-  }
-}
+      useHead({
+        htmlAttrs: {
+          lang: this.$i18n.locale,
+          dir: this.$i18n.locale === "en" ? "ltr" : "rtl",
+        },
+      });
+    },
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
